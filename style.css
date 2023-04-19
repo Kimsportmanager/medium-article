@@ -1,0 +1,80 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.banner {
+  background-image: url('https://source.unsplash.com/random/1600x900');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.banner .banner-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner .banner-content {
+  text-align: center;
+}
+
+.banner .banner-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.banner .banner-description {
+  font-size: 1.5rem;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Article styles */
+article {
+  margin-bottom: 50px;
+}
+
+article h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+article p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+article a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #FF5E3A, #FF2A68);
+  color: #fff;
+  text-decoration: none;
+  transition: background-image 0.3s ease-in-out;
+}
+
+article a:hover {
+  background-image: linear-gradient(to right, #FF2A68, #FF5E3A);
+}
